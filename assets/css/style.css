@@ -365,10 +365,3 @@ input:checked+.slider:before {
         display: none;
     }
 }
-
-/* @media (max-width:578px) {
-    .position {
-        bottom: 5px;
-    }
-
-} */
