@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <title>NFTsee</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="d-flex navbar justify-content-lg-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <div class="mobile-navbar-btn">
+                        <ion-icon name="menu-outline" onclick="shownav()" class="mobile-nav-icon"></ion-icon>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/images/logo.png" alt="" class="mx_60 w-lg-100 me-sm-3 me-1 w-25">
+                        <h2 class="logo_head">NFTsee</h2>
+                        <ul class="d-flex nav_bar justify_content align_center gap_navlist" id="navBar">
+                            <li><a href="" class="font_style">Feed</a></li>
+                            <li><a href="" class="font_style">Wallet</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-end">
+                    <div class="nav_bar">
+                        <input type="text" placeholder="Search here..." class="search_box mr_25">
+                    </div>
+                    <img src="./assets/images/zoom_icon.png" alt="" class="d-lg-none pe-sm-4 pe-1">
+                    <label class="switch me-sm-3 me-1">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <img src="./assets/images/boy-profile.png" alt="" class="">
+                </div>
+
+            </div>
+        </nav>
+        <div>
+            <img src="./assets/images/bg-image.png" alt="" class="w-100">
+        </div>
+    </header>
+    <section class="transform_box">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="box p-4">
+                <div class="d-flex align-items-md-start justify-content-between flex-column-reverse flex-md-row">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+                        <div class="col-12 col-md-4 d-flex justify-content-center mr_25">
+                            <img src="./assets/images/women-with-book.png" alt="women with book" class="mx_225 w-100" />
+                        </div>
+                        <div class="d-flex flex-column col-12 col-md-8 align-items-center align-items-md-start">
+                            <h2 class="lorem_mollis">Lorem Mollis</h2>
+                            <p class="text_color">@loremmollis</p>
+                            <div class="d-flex">
+                                <div class="border_right">
+                                    <p>156</p>
+                                    <p>Following</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="border_right pl_44">
+                                    <p>457</p>
+                                    <p>Followers</p>
+                                </div>
+                                <div class="pl_44">
+                                    <p>382</p>
+                                    <p>Owned</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <p class="edit_profile cursor_pointer">Edit Profile</p>
+                    </div>
+                </div>
+                <div class="line2"></div>
+                <p class="pb_38 sec1para">
+                    Rhoncus facilisis cursus tortor varius vitae. Tristique varius arcu
+                    sit pretium viverra. Ornare hac posuere integer molestie mi aliquam
+                    quis in eget. Non arcu tempor sed facilisis non aliquet adipiscing
+                    ullamcorper massa. Sapien ornare sit odio id lorem vitae. Ipsum,
+                    lacus cursus iaculis praesent cursus consectetur. Dolor ac faucibus
+                    in tempor adipiscing eget. Risus venenatis, ut fames libero, cras eu
+                    ut.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image1.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image2.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image3.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image4.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image5.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image6.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image7.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image8.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image9.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image10.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image11.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image12.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image13.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image14.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image15.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 pb-4 image">
+                    <div class=" position-relative">
+                        <img src="./assets/images/image16.png" alt="" class="w-100">
+                        <div
+                            class="d-flex align-items-center position-absolute justify-content-evenly position w-100 mx_295">
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/like_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">10</p>
+                            </div>
+                            <div class="d-flex gap-md-2 gap-1 align-items-center">
+                                <img src="./assets/images/comment_icon.png" alt="" class="w-100 size cursor_pointer">
+                                <p class="img_para mb-0">20</p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/share_icon.png" alt="" class="w-100 size cursor_pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function shownav() {
+            document.getElementById('navBar').classList.toggle('shownav');
+            document.body.classList.toggle("overflow");
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
