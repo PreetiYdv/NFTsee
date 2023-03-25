@@ -8,15 +8,6 @@
     box-sizing: border-box;
 }
 
-
-.container {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
 .box {
     max-width: 1300px;
     height: 100%;
@@ -158,7 +149,6 @@
     height: 0px;
     opacity: 0.2;
     border: 1px solid #000000;
-    margin-left: 38px;
     margin-top: 26px;
     margin-bottom: 23px;
 }
